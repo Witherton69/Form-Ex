@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Customer Service form</legend>
+         <label for="storeNumber">Store Number</label>
+         <select name="storeNumber" id="storeNumber">
+            <option hidden>Select a Store</option>
+             <option value="StoreOne">One</option>
+             <option value="StoreTwo">Two</option>
+             <option value="StoreThree">Three</option>
+             <option value="StoreFour">Four</option>
+             </select>
+             <fieldset>
+                <legend>When You Visited</legend>
+                <label for="whenYouVisited">Date Visited</label>
+                     <input type="date" id="visited" value="2000-00-00">
+                     <br />
+                     <label for="Time">Time</label>
+                     <input type="time" id="timeOfVisit" value="00-00-00">
+             </fieldset>
+             <form>
+             <label for="name">Full Name</label>
+             <input type="text" id="name">
+             <br />
+             <label for="email">Email</label>
+             <input type="text" id="email">
+             </form>
+             <form>
+             <fieldset>
+                <legend>How would you rate your level of satisfaction</legend>
+                <input type="radio" id="good" name="satisfaction" value="satisfied">
+                <label for="good">Satisfied</label>
+                <br />
+                <input type="radio" id="neither" name="satisfaction" value="niether">
+                <label for="niether">Niether Satisfied nor Dissatisfied</label>
+                <br />
+                <input type="radio" id="bad" name="satisfaction" value="dissatisfied">
+                <label for="bad">Dissatisfied</label>
+                <br />
+            </fieldset>
+             </form>
+             <form>
+                <label for="">Tell us about your time</label>
+        <br />
+                <textarea name="tellUs" id="tellUs" cols="20" rows="3" placeholder="Type Here"></textarea>
+             </form>
+             <form>
+                <label for="month">Times visited in the last month</label>
+                <br />
+                <input type="number" id="month" placeholder="0"> 
+             </form>
+             <form>
+                <input type="checkbox" id="agree">
+                <label for="agree">Please check the box if you would be willing to be contacted about your experience</label>
+             </form>
+             <form>
+                <label for="password">Password</label>
+                <input type="text" id="password">
+             </form>
+             <form>
+                <input type="reset">
+                <input type="submit"> 
+                </input>
+             </form>
+                
+    </fieldset>
+    </form>
+</body>
+</html>
